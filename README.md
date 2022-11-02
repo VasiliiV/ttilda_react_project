@@ -17,7 +17,7 @@ cd my-app
 # добавить, где все импорты:
 - import Input from './elements/element';
 
-- и в root добавить <Input />:
+- и в root добавить Input:
 <React.StrictMode>
    {/*  <App /> */}
     <Input />
