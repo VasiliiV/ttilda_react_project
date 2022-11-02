@@ -19,7 +19,7 @@ cd my-app
 
 - и в root добавить Input:
 <React.StrictMode>
-    <Input />
+    <тут />
   </React.StrictMode>
   
 
