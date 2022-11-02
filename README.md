@@ -24,3 +24,5 @@ npx create-react-app my-app
   </React.StrictMode>
   
 
+Пример итог сайта есть на скрине:
+example.png
