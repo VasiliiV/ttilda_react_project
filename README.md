@@ -5,9 +5,10 @@
 - склонировать репозиторий
 - установить приложение реакт 
 npx create-react-app my-app
-cd my-app
+- перенести папку elements в src
+
 - войти в index.js и внести изменения, которые ниже описаны
-- запустить npm start
+- запустить: cd my-app, npm start
 
 # закоментить строки:
 - import './index.css'; (3)
