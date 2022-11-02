@@ -7,6 +7,7 @@
 npx create-react-app my-app
 cd my-app
 - войти в index.js и внести изменения, которые ниже описаны
+- запустить npm start
 
 # закоментить строки:
 - import './index.css'; (3)
@@ -22,4 +23,4 @@ cd my-app
     <Input />
   </React.StrictMode>
   
-- запустить npm start
+
