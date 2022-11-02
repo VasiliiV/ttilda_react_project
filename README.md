@@ -11,7 +11,7 @@ cd my-app
 #закоментить:
 - import './index.css';
 - import App from './App';
-- <App />
+- "<App />"
 
 #добавить, где все импорты:
 - import Input from './elements/element';
