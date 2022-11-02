@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: #ef6b50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+.Fon {
+    background-color: rgba(255,255,255,.1);
+    height: 350px;
+    max-width: 470px;
+    padding: 30px 55px 37px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto 5px;
+    
+}
+.logo_svg {
+    width: 57px;
+    height: 57px;
+}
+.form {
+    font: inherit;
+    vertical-align: baseline;
+    padding: 0 10px;
+    margin: 17px 0 0 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: none;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: 53px;
+    box-sizing: border-box;
+}
+.password {
+    margin-bottom: 20px;
+}
+#password {
+    position: relative;
+    top: 23px;
+    padding: 5px 10px 11px;
+}
+.email {
+    position: relative;
+    top: 23px;
+    padding: 5px 10px 11px;
+}
+.input_click {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inp_clk {
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffe4c485;
+    
+}
+#inp_clk:hover {
+    background-color: rgba(255, 228, 196, 0.253);
+    transition: 1s;
+}
+::-webkit-input-placeholder {
+    color: #f8b195ab;
+}
+
+
