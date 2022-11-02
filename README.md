@@ -8,15 +8,15 @@ npx create-react-app my-app
 cd my-app
 - войти в index.js и внести изменения:
 
-закоментить
-import './index.css';
-import App from './App';
-<App /> 
+#закоментить:
+- import './index.css';
+- import App from './App';
+- <App />
 
-добавить, где все импорты:
-import Input from './elements/element';
+#добавить, где все импорты:
+- import Input from './elements/element';
 
-и в root добавить <Input />:
+- и в root добавить <Input />:
 <React.StrictMode>
    {/*  <App /> */}
     <Input />
