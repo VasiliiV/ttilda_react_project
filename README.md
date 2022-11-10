@@ -4,7 +4,7 @@
 - склонировать репозиторий
 - запустить: cd my-app, npm start
 
-##Если не запускается, то установить:
+## Если не запускается, то установить:
 - sudo apt update
 - sudo apt install nodejs
 - sudo apt install npm
