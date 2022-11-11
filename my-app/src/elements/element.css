@@ -31,32 +31,32 @@ body {
     vertical-align: baseline;
     padding: 0 10px;
     margin: 17px 0 0 0;
-    border: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
     background: none;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
     text-align: left;
     width: 100%;
     height: 53px;
     box-sizing: border-box;
 }
 .password {
-    margin-bottom: 20px;
-}
-#password {
     position: relative;
     top: 23px;
     padding: 5px 10px 11px;
-}
+    margin: 10px 0 0 0;
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    margin-bottom: 10px;
+    }
 .email {
     position: relative;
     top: 23px;
     padding: 5px 10px 11px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
 }
 .input_click {
+    margin-top: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
