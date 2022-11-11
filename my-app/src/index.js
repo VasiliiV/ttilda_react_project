@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 /* import App from './App'; */
 import reportWebVitals from './reportWebVitals';
-import Input from './elements/element'
+import Fon from './elements/element'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Input/>
+    <Fon/>
   </React.StrictMode>
 );
 

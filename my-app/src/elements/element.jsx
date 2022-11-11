@@ -1,6 +1,7 @@
 import './element.css';
 import logo from './logo_w.svg';
 import Click from './input_click.jsx'
+import InputMenu from './input_two_menu';
 
 function Fon() {
     return (
@@ -9,12 +10,8 @@ function Fon() {
                 <img src={logo} alt="logo" srcset="" className='logo_svg'/>
             </div>
             <form className="form" name="form" action="" method="post">
-                <div className='form'>
-                    <input className='email' type="email" name="" id="" placeholder="email" style={{background: 'transparent', border: 'none', outline: 'none', color: '#fff'}}/>
-                </div>
-                <div className='form password'>
-                    <input id='password' type="password" name="" placeholder="password" style={{background: 'transparent', border: 'none', outline: 'none', color: '#fff'}}/>
-                </div>
+                <InputMenu className="password" type = 'password' placeholder="password"/>
+                <InputMenu className="email" type = 'email' placeholder="email"/>
                 <Click/>
             </form>
         </div>
